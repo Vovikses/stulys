@@ -1,0 +1,77 @@
+html, body{
+    font-size: 16px;
+    background-color: rgb(141, 23, 21);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100%;
+}
+
+.conteiner{
+    background-color: rgb(158, 61, 31);
+    width: 80%;
+    margin: 1rem auto;
+    padding: 1rem;
+    
+
+}
+
+.img{
+    text-align: center;
+}
+
+.article{
+    text-align: center;
+    font-size: 3rem;
+    text-decoration: underline;
+}
+
+.conteiners{
+    position: relative;
+    width: 25%;
+    padding: 1rem;
+    height: 35rem;
+    overflow: auto;
+    display: inline-block;  
+    vertical-align:top;
+    border: 1px solid #c6c6c6;
+    border-radius: .3rem;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.conteiners .img  {
+    max-width: 100%; 
+    max-height: 15rem;
+}
+
+.description{
+   font-style: italic;
+}
+
+.code {
+    font-size: 12px;
+    line-height: 1;
+    color: #999;
+}
+
+.name{
+    font-weight: 900;
+}
+
+.price{
+    font-style: italic;
+    color: red;
+}
+
+.add-to-cart img{
+    width: 2.5rem;
+}
+
+.sale img{
+    width: 5rem;
+}
+
+
+
+
+
